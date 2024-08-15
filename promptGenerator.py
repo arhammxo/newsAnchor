@@ -2,7 +2,7 @@ import google.generativeai as genai
 import requests
 from bs4 import BeautifulSoup
 
-genai.configure(api_key="AIzaSyCWna-D27sTjqf3IuIBgd_BD5ZFfvIfQrA")
+genai.configure(api_key="OPENAPI_KEY")
 
 # Set up the model
 generation_config = {
