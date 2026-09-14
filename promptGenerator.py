@@ -2,6 +2,8 @@ import google.generativeai as genai
 import requests
 from bs4 import BeautifulSoup
 
+import os
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Set up the model

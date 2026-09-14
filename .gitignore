@@ -1,0 +1,23 @@
+# secrets & local config
+.env
+.env.*
+!.env.example
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+# data / outputs / logs (may contain PII)
+job_results/
+*.log
+ps.txt
+sessions/
+data/
+*.mp3
+*.wav
+*.mp4
+# tooling
+.DS_Store
+.idea/
+.vscode/
